@@ -1,0 +1,29 @@
+
+spring:
+  application:
+    name: userOrg
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLInnoDBDialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+server:
+  port: 5000
+  error:
+    path: /user/error
+    whitelabel:
+      enabled: false
+
+#jdbc:postgresql://hng.c3uck8sgqk77.us-east-1.rds.amazonaws.com:5432/hng
+

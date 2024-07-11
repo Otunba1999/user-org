@@ -1,8 +1,6 @@
 package com.otunba.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.otunba.controllers.AuthController;
-import com.otunba.controllers.UserController;
 import com.otunba.dtos.ErrorResponse;
 import com.otunba.dtos.LoginRequest;
 import com.otunba.dtos.Response;
@@ -45,7 +43,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @Slf4j
 @WebMvcTest(controllers = {AuthController.class, UserController.class})
 @AutoConfigureMockMvc(addFilters = false)
-class AuthControllerTest {
+class AuthSpec {
 
     @Autowired
     private MockMvc mockMvc;

@@ -1,7 +1,7 @@
-package com.otunba.repository;
+package java.com.otunba.repository;
 
-import com.otunba.models.Organisation;
-import org.checkerframework.checker.units.qual.A;
+import com.otunba.repository.OrganisationRepository;
+import com.otunba.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.jdbc.EmbeddedDatabaseConnection;

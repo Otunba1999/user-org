@@ -1,6 +1,7 @@
-package com.otunba.repository;
+package java.com.otunba.repository;
 
 import com.otunba.models.User;
+import com.otunba.repository.UserRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

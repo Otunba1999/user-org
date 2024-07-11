@@ -59,7 +59,7 @@ public class AuthService {
     }
 
     @Transactional
-    protected User saveUser(UserDto userdto) {
+    public User saveUser(UserDto userdto) {
         var user = new User();
                 user.setEmail(userdto.getEmail());
                 user.setPassword(passwordEncoder.encode(userdto.getPassword()));

@@ -1,6 +1,8 @@
 package com.otunba.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.otunba.controllers.AuthController;
+import com.otunba.controllers.UserController;
 import com.otunba.dtos.ErrorResponse;
 import com.otunba.dtos.LoginRequest;
 import com.otunba.dtos.Response;

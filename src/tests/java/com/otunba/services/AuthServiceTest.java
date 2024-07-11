@@ -7,6 +7,8 @@ import com.otunba.models.Organisation;
 import com.otunba.models.User;
 import com.otunba.repository.OrganisationRepository;
 import com.otunba.repository.UserRepository;
+import com.otunba.services.AuthService;
+import com.otunba.services.JwtTokenService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
